@@ -27,7 +27,6 @@ const MovieState = (props) => {
     const { data } = await axios.get(
       `https://api.themoviedb.org/3/movie/top_rated?api_key=8305d069f496f8a6dff57ba5251b5ebf&language=en-US&page=1`
     );
-
     dispatch({
       type: GET_MOVIES,
       payload: data,
