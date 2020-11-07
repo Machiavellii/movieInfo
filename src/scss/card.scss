@@ -1,0 +1,31 @@
+.card-details {
+  max-width: 800px;
+  display: flex;
+  margin: auto;
+  padding: 0 2rem;
+  .details-img {
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+  }
+
+  .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+    h1 {
+      font-size: 2rem;
+    }
+
+    .overview {
+      font-size: 1.1rem;
+    }
+
+    .status-info {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}

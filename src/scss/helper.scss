@@ -1,0 +1,42 @@
+.h-v {
+  height: 100vh;
+}
+
+.moviesContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mb-5 {
+  margin-bottom: 0.5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-6 {
+  margin-bottom: 6rem;
+}
+.ml-5 {
+  margin-left: 0.5rem;
+}
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background-color: #3fb573;
+  font-size: 1em;
+  text-align: center;
+  padding: 5px 10px;
+  border: 0;
+  margin: 1.5rem 2.5rem;
+  border-radius: 5px;
+}

@@ -1,0 +1,34 @@
+@media (max-width: 1200px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}
+
+@media (max-width: 850px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .card-details {
+    flex-direction: column !important;
+
+    & .details-img {
+      margin-bottom: 1rem;
+    }
+
+    & .overview {
+      margin: 2rem 0;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  header img {
+    width: 150px !important;
+  }
+  .cards {
+    grid-template-columns: 1fr !important;
+  }
+  .description {
+    padding: 0 !important;
+  }
+}
