@@ -6,7 +6,6 @@ import MovieState from "./context/movies/movieState";
 import Header from "./component/layout/Header";
 import Cards from "./component/pages/Movies";
 import Card from "./component/pages/Movie";
-import Footer from "./component/layout/Footer";
 import NotFound from "./component/layout/NotFount";
 
 const App = () => {
@@ -14,14 +13,13 @@ const App = () => {
     <MovieState>
       <Router>
         <Header />
-        <div className="container h-v">
+        <div className="container mb-3-m">
           <Switch>
             <Route exact path="/" component={Cards} />
             <Route exact path="/:id" component={Card} />
             <Route component={NotFound} />
           </Switch>
         </div>
-        <Footer />
       </Router>
     </MovieState>
   );

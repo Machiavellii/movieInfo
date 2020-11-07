@@ -5,6 +5,9 @@
 }
 
 @media (max-width: 850px) {
+  .mb-3-m {
+    margin-bottom: 3rem;
+  }
   .cards {
     grid-template-columns: repeat(2, 1fr) !important;
   }
